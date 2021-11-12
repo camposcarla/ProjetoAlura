@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Aluraconf</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/speakers.css">
+    <link rel="stylesheet" href="css/form.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="main-menu">
+            <ul>
+                <li class="menu-item"><a href="#panel-about">Sobre</a></li>               </li>
+                <li class="menu-item"><a href="#panel-speakers">Palestrantes</a></li>
+            </ul>
+        </nav>  
+        <div class="jumbotron">
+            <section class="panel-main">
+                <h1 class="title">ALURACONF</h1>
+                <h2 class="subtitle">16DEZEMBRO|RIO</h2>
+            </section>
+            <section class="panel-subscribe"> 
+                <a href="#panel-form" class="button">Inscreva-se</a>
+            </section>
+
+        </div> 
+    </header>
+
+    <section id="panel-about" class="panel panel-about">
+        <div class="container">
+            <h2 class="title">Muito conteúdo: do frontend ao backend</h2>
+            <h3 class="subtitle">16 de Dezembro de 2021 - na Cidade Maravilhosa</h3>
+
+            <div class="about-description">
+                <p>
+                Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolver mobile.
+                </p>
+                <p>
+                É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da
+                parte backend com Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="panel-speakers" class="panel panel-speakers">
+        <div class="container">
+            <div class="about-speakers">
+
+                <h2 class="title">PALESTRANTES</h2>
+                <h3 class="subtitle">Aprenda com palestrantes que são referência no mercado</h3>
+            </div>
+
+            <ul class="speakers">
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="spaeker-image" src="img/palestrantes/flaviopalestrante.jpeg" alt="Foto do Palestrante">
+                        <figcaption class="speaker-name">Flávio Almeida</figcaption>
+                        <p class="speaker-bio">Desenvolvedor e Instrutor da Alura/Caelum</p>
+                    </figure>
+                    <p class="speaker-speach">To be or not to be MEAN</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="spaeker-image" src="img/palestrantes/pedropalestrante.jpg" alt="Foto do Palestrante">
+                        <figcaption class="speaker-name">Pedro Marins</figcaption>
+                        <p class="speaker-bio">Desenvolvedor de Front-End e Instrutor da Alura/Caelum</p>
+                    </figure>
+                    <p class="speaker-speach">Seja você um desenvolvedor</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="spaeker-image" src="img/palestrantes/amandapalestrante.jpg" alt="Foto do Palestrante">
+                        <figcaption class="speaker-name">Amanda Macena</figcaption>
+                        <p class="speaker-bio">Analista de Educação Corporativa na TIVIT</p>
+                    </figure>
+                    <p class="speaker-speach"> Conheça o universo da tecnologia</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="spaeker-image" src="img/palestrantes/rafaellapalestrante.jpg" alt="Foto do Palestrante">
+                        <figcaption class="speaker-name">Rafaella Ballerine</figcaption>
+                        <p class="speaker-bio">Desenvolvedora de Software e Instrutora da Alura</p>
+                    </figure>
+                    <p class="speaker-speach">Venha para o Acelera Devs!</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="spaeker-image" src="img/palestrantes/luciana.jpg" alt="Foto do Palestrante">
+                        <figcaption class="speaker-name">Luciana Candido</figcaption>
+                        <p class="speaker-bio">Aluna do Projeto Acelera Devs da TIVIT</p>
+                    </figure>
+                    <p class="speaker-speach">Programação para mulheres</p>
+                </li>
+                
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="spaeker-image" src="img/palestrantes/carla.jpg" alt="Foto do Palestrante">
+                        <figcaption class="speaker-name"> Carla Campos</figcaption>
+                        <p class="speaker-bio">Aluna do Projeto Acelera Devs da TIVIT</p>
+                    </figure>
+                    <p class="speaker-speach">Programação para mulheres</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="panel-form" class="panel-form">
+        <div class="container">
+        <h2 class="title">Seus Dados</h2>
+
+            <form>
+                <div class="field">
+                    <label>Nome</label>
+                    <input class="field-input">
+                </div>
+                <div class="field">
+                <label>Email</label>
+                <input class="field-input">
+                </div>
+                <div class="button-place">
+                <button class="button">REALIZAR INSCRIÇÃO</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
